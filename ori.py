@@ -6,4 +6,6 @@ for i in range(len(alist)):
     n1 = st.sidebar.radio("{}".format(alist[i]),("A","B","C","D","E","F","G"),horizontal=True)
     blist.append(n1)
     
+clist = ["a","i"]
+st.multiselect("a",clist)
 st.write(blist)
